@@ -6,4 +6,6 @@ var rahim ={
     email: 'mokaddes.2000@gmail.com',
     address: 'Dhaka, Bangladesh'
 }
+
+rahim.phone = 01700000001;
 console.log(rahim);
