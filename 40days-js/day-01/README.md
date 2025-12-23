@@ -11,8 +11,9 @@
 1. Create a new file: index.html
 2. Add a `<script>` tag inside the HTML file or link an external `script.js`.
 3. Inside `script.js`, Write a simple greeting program:
-```js
-     console.log("Hello, tapaScript!");
+3. Inside `script.js`, write a simple greeting program:
+    ```js
+    console.log("Hello, tapaScript!");
     console.log("Welcome to 40 Days of JavaScript!");
     document.write("Check the browser console for a message!");
     ```
