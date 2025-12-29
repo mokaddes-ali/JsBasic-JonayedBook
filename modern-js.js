@@ -95,7 +95,8 @@ aPromiseWithData(false)
     console.log(error);
 })
 
-const promiseOne = new Promise( (resolve, reject) => {
+const promiseOne = control => { 
+    return new Promise( (resolve, reject) => {
     setTimeout( () => {
         if ( true ) {
             resolve('Promise one resolved');
@@ -104,18 +105,46 @@ const promiseOne = new Promise( (resolve, reject) => {
         }
     }, 5000);
 });
-
-const promiseTwo = new Promise( (resolve, reject) => {
+}
+const promiseTwo = control => {
+    return new Promise( (resolve, reject) => {
     setTimeout( () => {
-        if(ture) {
+        if(true) {
              resolve('Promise two resolved');
         } else {
             reject( 'Promise two error.' );
         }
     }, 5000);
 });
+}
 
-Promise.all( [ promiseOne, promiseTwo ])
+const promise1 = promiseOne(true);
+const promise2 = promiseTwo(true);
+
+Promise.all( [ promise1, promise2 ])
 .then( (dataArr) =>{
     console.log(dataArr);
 })
+
+
+//! async and await
+const aPromiseMake = control => {
+    return new Promise( (resolve, reject) => {
+        setTimeout( () => {
+            if ( control ) {
+                resolve('I am here!'); // success data
+            } else {
+                reject('No! It is an error.'); // reject data
+            }
+        }, 3000)
+    })
+}
+const promisHandle  = async() => {
+   try{
+    const data = await aPromiseMake(true);
+    console.log(data);
+   }catch( error ){
+    console.log(error);
+   }
+}
+promisHandle();
