@@ -17,6 +17,7 @@ setTimeout( function() {
 console.log('This value is:' + value );
 */
 
+/*
 const getVar = () => {
     setTimeout( function() {
         console.log('A function that takes some time.');
@@ -28,6 +29,7 @@ const printSomething = () => {
 getVar();
 printSomething();
 
+//! callback function use
 const getvarC = ( callback ) => {
     setTimeout( function() {
         console.log('A function take some time 3 second');
@@ -38,3 +40,82 @@ const printSomethingC = () => {
     console.log('Another Function');
 }
 getvarC( printSomethingC );
+*/
+
+const aPromise = control => {
+    return new Promise( (resolve, reject) => {
+        setTimeout( () => {
+            if ( control ) {
+                resolve(); // success data
+            } else {
+                reject(); // reject data
+            }
+        }, 3000)
+    })
+}
+aPromise(true)
+.then( () => {
+    console.log('Promise Success!');
+})
+.catch( () => {
+    console.log('simple error');
+})
+
+aPromise(false)
+.then( () => {
+    console.log('Promise Success!');
+})
+.catch( () => {
+    console.log('simple error');
+})
+
+const aPromiseWithData = control => {
+    return new Promise( ( resolve, reject) => {
+        setTimeout( () => {
+            if( control ){
+                resolve('Data Process Succes');
+            }
+            reject('any error process data')
+        }, 3000)
+    })
+}
+aPromiseWithData(true)
+.then( (data) => {
+    console.log(data);
+})
+.catch( (error) => {
+    console.log(error);
+})
+
+aPromiseWithData(false)
+.then( (data) => {
+    console.log(data);
+})
+.catch( (error) => {
+    console.log(error);
+})
+
+const promiseOne = new Promise( (resolve, reject) => {
+    setTimeout( () => {
+        if ( true ) {
+            resolve('Promise one resolved');
+        } else {
+            reject( 'Promise one error.' );
+        }
+    }, 5000);
+});
+
+const promiseTwo = new Promise( (resolve, reject) => {
+    setTimeout( () => {
+        if(ture) {
+             resolve('Promise two resolved');
+        } else {
+            reject( 'Promise two error.' );
+        }
+    }, 5000);
+});
+
+Promise.all( [ promiseOne, promiseTwo ])
+.then( (dataArr) =>{
+    console.log(dataArr);
+})
