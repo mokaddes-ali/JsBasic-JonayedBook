@@ -1,32 +1,3 @@
-function demoClick() {
-    //! Pring basic info of JavaScript.
-    // single line comment
-    // alert("yes i am here!");
-   /* 
-   Multiple line comment
-   confirm("You are sure going in next step!")
-    console.log("hello test. \n Mokaddes Ali");
-    console.warn("\t hello warning test!");
-    console.error("hello error test!");
-    console.clear();
-    */
-//!   var price = 1200; next time same variable name redeclare possible
-
-//? let value change in next time
- let price = 1200;
-  price = 1400;
-  //! const not change value and do not allow same name variable in next time
-const id = 1;
-const title = 'good camera'
-//    let
-//    const
-
-   console.log('id: ' + id);
-   console.log('title: ' + title);
-   console.log('description: ');
-   console.log('price:' + price);
-   console.log('Iphone price:' + price);
-   console.log('rating: 4.69');
 
    //! Arithmetic Operator
    //? Create a simple calculator
@@ -63,4 +34,3 @@ const title = 'good camera'
    console.log(`${firstNumber1} + ${secondNumber2} = ${ firstNumber1 + secondNumber2 }`);
 
    console.log(`${firstNumber1} - ${secondNumber2} = ${ firstNumber1 - secondNumber2 }`);
-}

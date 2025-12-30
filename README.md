@@ -6,7 +6,8 @@
 - What is JS?
 - What are the ways to add JS?
 - setting up the environment -vs code, -node.js
-- output: alert(), confirm(), console
+- output: alert(), confirm(), console.log/info/warn/error
+- prompt() for input value
 - comment: single line comment, multiple line comments
 - backslash characters => \n, \t
 - () parenthesis
