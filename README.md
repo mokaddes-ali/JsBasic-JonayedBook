@@ -23,5 +23,8 @@
     - variables : var vs let vs const, 
     - data types (type of )=> string, number, boolean( true or false), null( 0 ), undefined, object( array etc), symbol
     - truthy vs falsy values, 
-    - operators: Arithmetic ( +, -, *, ?, %), Assingment, Comparison(>, <, >=, <=, ==, ===)
+    - operators: Arithmetic ( +, -, *, ?, %)
+    - Urinary Operator (Post, Pre Increment and Decrement)
+    - Assingment(+=, -=, *=, /=, %=)
+    - Comparison(>, <, >=, <=, ==, ===)
 - control statement
