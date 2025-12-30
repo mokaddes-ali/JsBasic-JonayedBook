@@ -10,21 +10,26 @@
 - prompt() for input value
 - comment: single line comment, multiple line comments
 - backslash characters => \n, \t
-- () parenthesis
-- {} cerlybrakets
-- [] square brackets
-- <> angular brackets
+
 - String letarul: `` backtic => structure `${variablename}`
 
 - Tokens: 
     - keywords, 
-    - puncuators, 
+    - puncuators
+        - ''
+        - ""
+        - ;
+        - :
+        - () parenthesis
+        - {} cerlybrakets
+        - [] square brackets
+        - <> angular brackets
     - backslash characters => \n, \t, 
     - variables : var vs let vs const, 
     - data types (type of )=> string, number, boolean( true or false), null( 0 ), undefined, object( array etc), symbol
     - truthy vs falsy values, 
     - operators: Arithmetic ( +, -, *, ?, %)
-    - Urinary Operator (Post, Pre Increment and Decrement)
+    - Unary Operator (Post Increment(i++) and Decrement(i--) and , Pre Increment(++i) and Decrement(--i) )
     - Assingment(+=, -=, *=, /=, %=)
     - Comparison(>, <, >=, <=, ==, ===)
-- control statement
+    - control statement

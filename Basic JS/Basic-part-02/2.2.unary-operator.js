@@ -1,4 +1,4 @@
-//! Urinary Operators => -, + ++, --, only one operator a,b, i etc
+//! Unary Operators => -, + ++, --, only one operator a,b, i etc
 let numb01 = 30;
 let numb02 = -numb01; //! Unary minus
 console.log(numb02);
