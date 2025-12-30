@@ -28,8 +28,12 @@
     - variables : var vs let vs const, 
     - data types (type of )=> string, number, boolean( true or false), null( 0 ), undefined, object( array etc), symbol
     - truthy vs falsy values, 
-    - operators: Arithmetic ( +, -, *, ?, %)
-    - Unary Operator (Post Increment(i++) and Decrement(i--) and , Pre Increment(++i) and Decrement(--i) )
-    - Assingment(+=, -=, *=, /=, %=)
-    - Comparison(>, <, >=, <=, ==, ===)
+    - operators: 
+        -Arithmetic ( +, -, *, ?, %)
+        - Unary Operator (Post Increment(i++) and Decrement(i--) and , Pre Increment(++i) and Decrement(--i) )
+        - Assingment(+=, -=, *=, /=, %=)
+        - Comparison(>, <, >=, <=, ==, ===)
+        - Logical (&&, ||, !)
     - control statement
+        - conditional control statement if, else, else if, switch
+        - loop control statement
