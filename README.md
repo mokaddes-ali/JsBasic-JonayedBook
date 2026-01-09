@@ -45,11 +45,11 @@
     - Truthy vs Falsy values
 - Operators: 
     - Arithmetic:
-        - + 
-        - -
-        - *
-        - /
-        - %
+        + 
+        -
+        *
+        /
+        %
 ## JavaScript Basic Part-02
 - Operators:
     - Unary Operator: 
@@ -64,12 +64,12 @@
         - /=
         - %=
     - Comparison:
-        - >
-        - <
-        - >=
-        - <=
-        - ==
-        - ===
+        >
+        <
+        >=
+        <=
+        ==
+        ===
     - Logical:
         - &&
         - ||
