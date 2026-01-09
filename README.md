@@ -1,20 +1,24 @@
 # JS Topics
 
 ## JavaScript Basic Part-01
-- Introduction to JS
-- What is JS?
-- What are the ways to add JS?
-- setting up the environment -vs code, -node.js
-- output: alert(), confirm(), console.log/info/warn/error
-- prompt() for input value
-- comment: single line comment, multiple line comments
-- backslash characters => \n, \t
-
+- Setting up the environment
+    - vs code
+    - node.js
+- Introduction to JS ?
+- What is JS ?
+- What are the ways to add JS ?
+- Output: 
+    - alert() 
+    - confirm(),
+    - console.log/info/warn/error
+- Prompt() for input value
+- Comment:
+    - Single line comment( \\ )
+    - Multiple line comments( /* */ )
 - String letarul: `` backtic => structure `${variablename}`
-
 - Tokens: 
-    - keywords, 
-    - puncuators
+    - Keywords 
+    - Puncuators
         - ''
         - ""
         - ;
@@ -23,27 +27,59 @@
         - {} cerlybrakets
         - [] square brackets
         - <> angular brackets
-    - backslash characters => \n, \t, 
-    - variables : var vs let vs const, 
-    - data types (type of )=> string, number, boolean( true or false), null( 0 ), undefined, object( array etc), symbol
-    - truthy vs falsy values,
+- Backslash characters => \n, \t
+- Variables : 
+    - var
+    - let
+    - const 
+- Data types (type of ) => 
+    - String
+    - Number
+    - Boolean
+        - true
+        - false
+    - Null( 0 )
+    - Undefined
+    - Object( array etc)
+    - Symbol
+    - Truthy vs Falsy values
 - Operators: 
-    - Arithmetic ( +, -, *, /, %)
+    - Arithmetic:
+        - + 
+        - -
+        - *
+        - /
+        - %
 ## JavaScript Basic Part-02
 - Operators:
-    - Arithmetic ( +, -, *, /, %)
-    - Unary Operator 
-        - Post Increment(i++) and Decrement(i--)
-        - Pre Increment(++i) and Decrement(--i)
-    - Assingment(+=, -=, *=, /=, %=)
-    - Comparison(>, <, >=, <=, ==, ===)
-    - Logical (&&, ||, !)
+    - Unary Operator: 
+        - Post Increment( i++ )
+        - Post Decrement( i-- )
+        - Pre Increment(++i)
+        - Pre Decrement(--i)
+    - Assingment:
+        - +=
+        - -=
+        - *=
+        - /=
+        - %=
+    - Comparison:
+        - >
+        - <
+        - >=
+        - <=
+        - ==
+        - ===
+    - Logical:
+        - &&
+        - ||
+        - !
 - Control statement
     - conditional control statement
     - Loop control statement
 - conditional control statement 
-    - if, 
-    - else, 
+    - if
+    - else
     - else if
 ## JavaScript Basic Part-03
 - Conditional control statement 
