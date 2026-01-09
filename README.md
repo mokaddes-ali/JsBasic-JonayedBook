@@ -27,28 +27,28 @@
     - variables : var vs let vs const, 
     - data types (type of )=> string, number, boolean( true or false), null( 0 ), undefined, object( array etc), symbol
     - truthy vs falsy values,
-    - operators: 
-        -Arithmetic ( +, -, *, ?, %)
+- Operators: 
+        -Arithmetic ( +, -, *, /, %)
 ## JavaScript Basic Part-02
-    - operators: 
-        -Arithmetic ( +, -, *, ?, %)
+- Operators: 
+        -Arithmetic ( +, -, *, /, %)
         - Unary Operator (Post Increment(i++) and Decrement(i--) and , Pre Increment(++i) and Decrement(--i) )
         - Assingment(+=, -=, *=, /=, %=)
         - Comparison(>, <, >=, <=, ==, ===)
         - Logical (&&, ||, !)
-    - control statement
+- Control statement
         - conditional control statement if, else, else if
 ## JavaScript Basic Part-03
-        - control statement
+-Control statement
         -switch
-        - loop control statement
+-Loop control statement
            - for, while, do while
            - while vs do while loop
            - break, contonue
            - for of , for in
-    - Array, String, Object
+- Array, String, Object
 ## JavaScript Basic Part-04
-    - function vs method
+- function vs method
     - function ( traditional vs arrow function)
     - details var, let vs const
     - Number and Math method
