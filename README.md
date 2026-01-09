@@ -1,7 +1,6 @@
 # JS Topics
 
-## Basic JS
-
+## JavaScript Basic Part-01
 - Introduction to JS
 - What is JS?
 - What are the ways to add JS?
@@ -27,7 +26,10 @@
     - backslash characters => \n, \t, 
     - variables : var vs let vs const, 
     - data types (type of )=> string, number, boolean( true or false), null( 0 ), undefined, object( array etc), symbol
-    - truthy vs falsy values, 
+    - truthy vs falsy values,
+    - operators: 
+        -Arithmetic ( +, -, *, ?, %)
+## JavaScript Basic Part-02
     - operators: 
         -Arithmetic ( +, -, *, ?, %)
         - Unary Operator (Post Increment(i++) and Decrement(i--) and , Pre Increment(++i) and Decrement(--i) )
@@ -35,13 +37,17 @@
         - Comparison(>, <, >=, <=, ==, ===)
         - Logical (&&, ||, !)
     - control statement
-        - conditional control statement if, else, else if, switch
+        - conditional control statement if, else, else if
+## JavaScript Basic Part-03
+        - control statement
+        -switch
         - loop control statement
            - for, while, do while
            - while vs do while loop
            - break, contonue
            - for of , for in
     - Array, String, Object
+## JavaScript Basic Part-04
     - function vs method
     - function ( traditional vs arrow function)
     - details var, let vs const
