@@ -28,24 +28,33 @@
     - data types (type of )=> string, number, boolean( true or false), null( 0 ), undefined, object( array etc), symbol
     - truthy vs falsy values,
 - Operators: 
-        -Arithmetic ( +, -, *, /, %)
+    - Arithmetic ( +, -, *, /, %)
 ## JavaScript Basic Part-02
-- Operators: 
-        -Arithmetic ( +, -, *, /, %)
-        - Unary Operator (Post Increment(i++) and Decrement(i--) and , Pre Increment(++i) and Decrement(--i) )
-        - Assingment(+=, -=, *=, /=, %=)
-        - Comparison(>, <, >=, <=, ==, ===)
-        - Logical (&&, ||, !)
+- Operators:
+    - Arithmetic ( +, -, *, /, %)
+    - Unary Operator 
+        - Post Increment(i++) and Decrement(i--)
+        - Pre Increment(++i) and Decrement(--i)
+    - Assingment(+=, -=, *=, /=, %=)
+    - Comparison(>, <, >=, <=, ==, ===)
+    - Logical (&&, ||, !)
 - Control statement
-        - conditional control statement if, else, else if
+    - conditional control statement
+    - Loop control statement
+- conditional control statement 
+    - if, 
+    - else, 
+    - else if
 ## JavaScript Basic Part-03
--Control statement
-        -switch
--Loop control statement
-           - for, while, do while
-           - while vs do while loop
-           - break, contonue
-           - for of , for in
+- Conditional control statement 
+    - switch
+- Loop control statement
+    - for, 
+    - while, 
+    - do while
+    - while vs do while loop
+    - break, contonue
+    - for of , for in
 - Array, String, Object
 ## JavaScript Basic Part-04
 - function vs method
@@ -53,12 +62,12 @@
     - details var, let vs const
     - Number and Math method
     - ES6, ES7
-    -module 
+    - module 
     - spread Operator, Rest parameter
     - Destructure
     - higher order function: map, filter, foreach, reduce, callback function
     - Asynchronous programming: async, await, then, catch, callback
     - Error handling
-    -Json
+    - Json
     - Dom and event handler
 
