@@ -37,3 +37,22 @@
     - control statement
         - conditional control statement if, else, else if, switch
         - loop control statement
+           - for, while, do while
+           - while vs do while loop
+           - break, contonue
+           - for of , for in
+    - Array, String, Object
+    - function vs method
+    - function ( traditional vs arrow function)
+    - details var, let vs const
+    - Number and Math method
+    - ES6, ES7
+    -module 
+    - spread Operator, Rest parameter
+    - Destructure
+    - higher order function: map, filter, foreach, reduce, callback function
+    - Asynchronous programming: async, await, then, catch, callback
+    - Error handling
+    -Json
+    - Dom and event handler
+
