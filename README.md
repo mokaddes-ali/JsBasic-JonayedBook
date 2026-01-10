@@ -84,15 +84,26 @@
 ## JavaScript Basic Part-04
 - function vs method
     - function ( traditional vs arrow function)
-    - details var, let vs const
-    - Number and Math method
-    - ES6, ES7
-    - module 
+    - Method
+        - Number
+        - Date
+        - Math
+        - Array
+        - String methods
+- callback and higher order function
+
+## JavaScript Intermediate Part-01
+- Error handling
+- ES6, ES7
+- details var vs let vs const
+- Number and Math method
+- module 
     - spread Operator, Rest parameter
     - Destructure
     - higher order function: map, filter, foreach, reduce, callback function
+## JavaScript Intermediate Part-02
     - Asynchronous programming: async, await, then, catch, callback
-    - Error handling
+    - Api calling
     - Json
     - Dom and event handler
 
